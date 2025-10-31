@@ -3,9 +3,9 @@ import nltk
 import svgling
 from parser_logic import load_grammar, parse_expression
 
-st.set_page_config(page_title="CFG Arithmetic Parser", page_icon="🧩", layout="centered")
+st.set_page_config(page_title="CFG Arithmetic Parser", page_icon="", layout="centered")
 
-st.title("🧩 CFG-Based Arithmetic Expression Validator 🔍🧠")
+st.title(" CFG-Based Arithmetic Expression Validator ")
 st.markdown(
     "Enter an arithmetic expression (e.g., `a + b * c` or `(a+b)*c`) "
     "to check if it follows the grammar and view its parse tree."
