@@ -1,49 +1,37 @@
-Perfect — you want your README to render beautifully on **GitHub** (so that badges, emojis, and headings all look neat), **without appearing as plain text or broken formatting before “Project Structure.”**
 
-Here’s your **fixed and cleaned-up `README.md`** 👇 — I’ve corrected the Markdown spacing, fixed code block endings, and centered the header + badges for a more professional look:
-
----
-
-````markdown
-<div align="center">
-
-# 🌿 CFG-Based Arithmetic Expression Validator  
-
-[![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://www.python.org/)
-[![NLTK](https://img.shields.io/badge/NLTK-CFG%20Parsing-green?logo=python)](https://www.nltk.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-</div>
+# 🌿 CFG-Based Arithmetic Expression Validator
 
 ---
 
 ### 🧠 **Project Overview**
-A **Streamlit-powered web application** that validates and parses arithmetic expressions (like `(a+b)*c`) using a **Context-Free Grammar (CFG)**.  
-It verifies syntax correctness, visualizes parse trees, and provides detailed error feedback — built with **NLTK** and **Svgling**.  
+
+A **Streamlit-powered web application** that validates and parses arithmetic expressions (like `(a+b)*c`) using a **Context-Free Grammar (CFG)**.
+It verifies syntax correctness, visualizes parse trees, and provides detailed error feedback — built with **NLTK** and **Svgling**.
 
 ---
 
 ## 🚀 **Features**
-✅ **Expression Validation:** Ensures input expressions follow CFG grammar rules.  
-🌳 **Parse Tree Visualization:** Displays both textual and graphical trees (SVG).  
-⚡ **Error Feedback:** Handles unbalanced parentheses, invalid tokens, and malformed syntax.  
-💻 **Interactive Web UI:** Clean and responsive interface using Streamlit.  
+
+* ✅ **Expression Validation:** Ensures input expressions follow CFG grammar rules.
+* 🌳 **Parse Tree Visualization:** Displays both textual and graphical trees (SVG).
+* ⚡ **Error Feedback:** Handles unbalanced parentheses, invalid tokens, and malformed syntax.
+* 💻 **Interactive Web UI:** Clean and responsive interface using Streamlit.
 
 ---
 
 ## 🧩 **Grammar Definition**
+
 Defined in `grammar.cfg`:
 
 ```plaintext
 E -> E '+' T | E '-' T | T
 T -> T '*' F | T '/' F | F
 F -> '(' E ')' | 'id'
-````
+```
 
 > `id` represents variables like `a`, `b`, `c`, etc.
 
----
+
 
 ## 🗂️ **Project Structure**
 
