@@ -1,9 +1,12 @@
-Perfect 😄 — here’s your **✨ enhanced, professional GitHub-style README.md** with badges, emojis, and a polished layout.
-It’s ready to copy-paste directly into your repo!
+Perfect — you want your README to render beautifully on **GitHub** (so that badges, emojis, and headings all look neat), **without appearing as plain text or broken formatting before “Project Structure.”**
+
+Here’s your **fixed and cleaned-up `README.md`** 👇 — I’ve corrected the Markdown spacing, fixed code block endings, and centered the header + badges for a more professional look:
 
 ---
 
 ````markdown
+<div align="center">
+
 # 🌿 CFG-Based Arithmetic Expression Validator  
 
 [![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -11,6 +14,7 @@ It’s ready to copy-paste directly into your repo!
 [![NLTK](https://img.shields.io/badge/NLTK-CFG%20Parsing-green?logo=python)](https://www.nltk.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+</div>
 
 ---
 
@@ -30,6 +34,7 @@ It verifies syntax correctness, visualizes parse trees, and provides detailed er
 
 ## 🧩 **Grammar Definition**
 Defined in `grammar.cfg`:
+
 ```plaintext
 E -> E '+' T | E '-' T | T
 T -> T '*' F | T '/' F | F
@@ -135,7 +140,7 @@ You’ll get a public link like:
 * Uses **CFG rules** to parse arithmetic syntax.
 * Replaces all variables with `id` tokens internally.
 * Builds a parse tree using **NLTK’s ChartParser**.
-* Displays both full grammar-based and simplified parse trees in Streamlit.
+* Displays both grammar-based and simplified parse trees in Streamlit.
 
 ---
 
@@ -146,4 +151,9 @@ Free to use and modify for academic or personal purposes.
 
 ---
 
-### 💖 **Made with Python**
+<div align="center">
+
+### 💖 Made with Python 🐍 and Streamlit 🌿
+
+</div>
+
