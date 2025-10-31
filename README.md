@@ -100,17 +100,18 @@ and click **Validate Expression** to check syntax and visualize the parse tree.
 
 ## 🌐 **Deployment**
 
-Easily deploy your app on **Streamlit Cloud**:
+The app is live and deployed on Streamlit Cloud! 🚀
+You can explore it here:
 
-1. Push your project to GitHub.
-2. Visit [https://share.streamlit.io](https://share.streamlit.io).
-3. Sign in → **New App** → Select your repo.
-4. Set main file as `app.py` → Click **Deploy 🚀**
+ <p align="center">
+  <a href="https://cfg-expression-validator.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Open%20App-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Streamlit App"/>
+  </a>
+</p>
 
-You’ll get a public link like:
-👉 `https://yourusername-cfg-expression-validator.streamlit.app`
 
----
+
+Simply visit the link, enter any arithmetic expression like (a+b)*c, and visualize its parse tree instantly.
 
 ## 💡 **Example Inputs**
 
@@ -134,8 +135,8 @@ You’ll get a public link like:
 
 ## 📜 **License**
 
-This project is released under the [MIT License](https://opensource.org/licenses/MIT).
-Free to use and modify for academic or personal purposes.
+This project is created for educational and demonstration purposes.
+Not released under any specific open-source license.
 
 ---
 
